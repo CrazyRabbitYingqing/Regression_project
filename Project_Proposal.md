@@ -12,16 +12,16 @@ A film investor want to gather information on what type of movie gain the most p
 
 * Dataset(s) plan to use: "Box Office Mojo" Movie data https://www.boxofficemojo.com/
                           
-* Individual sample/unit, characteristics/features: Compare data from 2018 and 2020. Metrics: Genres, Budget, Running Time, Global Gross. 
+* Individual sample/unit, characteristics/features: Use data for at least 100 movies. Metrics: Genres, Budget, Running Time, Global Gross. 
 
-* What to predict as a target: Select top 10 Genres, find out the trends between Budget and Gross, Running Time and Gross.
+* What to predict as a target: Select top 10 Genres, find out the trends between, Genres and Gross, Budget and Gross, Running Time and Gross.
 
 
 #### Tools:
 
 * Regression model
 
-* Web scraping tools (BeautifulSoup)
+* Web scraping tools (BeautifulSoup, requests)
 
 * SQL, python, pandas, matplotlib, seaborn
 
