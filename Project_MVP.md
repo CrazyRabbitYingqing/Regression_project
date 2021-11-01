@@ -1,11 +1,13 @@
 ## Analysis of the Movie Gross revenue to give recommendation on a investiment plan
 \
-The goal of this project is to find out the type of movie that makes money in the Worldwid
+The goal of this project is to find out the types of movie that makes money in the Worldwide scale to benefit the movie investor for the future investment plans.
 
-I use pandas and seaborn to analyse the data and create a bar plot. The barplot shows the top 5 stations of the total traffic during July, August, and September in 2021.
+I use quest and BeautifulSOUP python package to scrape the data from https://www.boxofficemojo.com/.
+I use sklearn, statsmodels, pandas and seaborn to run regression models and create plots. I attached a regression plot to show the relationship between Domestic gross revenue and International gross revenue
 
-Conclusion: I found that "TIME-SQ-42ST", "FLAT BUSH AV-B.C.", "90 ST-ELMHURST STATION", "59 ST", and "HUNT POINT AV" are the top five stations of three-months total entry that worth to pick for survey design.
+
+Conclusion: I found that the International gross revenue increase with Domestic gross revenue.
 
 
-![](barplot_updated.png)
+![](plot1.png)
 
