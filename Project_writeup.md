@@ -36,10 +36,15 @@ Simple Linear Regression, Simple Linear Regression with Cross-validation, Polyno
 
 
 ### Tools
+
 BeautifulSoup and Quest to scrap data
+
 Numpy and Pandas for data manipulation
+
 Scikit-learn for modeling
+
 Matplotlib and Seaborn for plotting
+
 scipy for stats plot
 
 ### Communication
