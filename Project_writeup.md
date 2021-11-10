@@ -14,11 +14,34 @@ This project can be separated into three parts:
 
 ### Data
 
+Data Source: https://www.boxofficemojo.com/
+
+Data Time Period: 2010~2020
+
+Raw Data Sice: ~2000 row, 13 cols
+
+Cleaned and Featured Data: ~1100 row, ~70 cols
 
 ### Algorithms
 
+*Feature Engineering
+
+Converting categorical features to binary dummy variables.
+
+Drop features that does not highly correlated.
+
+*Models
+
+Simple Linear Regression, Simple Linear Regression with Cross-validation, Polynomial Regression, Lasso, Ridge, ElasticNet.
+
 
 ### Tools
-
+BeautifulSoup and Quest to scrap data
+Numpy and Pandas for data manipulation
+Scikit-learn for modeling
+Matplotlib and Seaborn for plotting
+scipy for stats plot
 
 ### Communication
+
+The model evaluation, comparison, and performance will be presented in the Slides.
